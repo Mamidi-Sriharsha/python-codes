@@ -1,0 +1,15 @@
+li=eval(input("enter elements into list"))
+print("list elements are",li)
+li.insert(3,999)
+print("elements in list after insertion",li)
+li.remove(999)
+print("elements in list after removing",li)
+for i in range(10,50):
+    if i%10==0:
+        li.append(i)
+print("elements in list after append",li)
+print("no of elements in the list",len(li))
+print("popped element",li.pop())
+print("elements in list after popping",li)
+li.clear()
+print("elements in list after clearing",li)
